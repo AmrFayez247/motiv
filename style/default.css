@@ -16,7 +16,7 @@ a h2 {
 }
 nav {
   font-family: "DM Sans";
-  height: 100vh !important;
+  /* height: 100vh !important; */
   width: calc(100% - 82vw);
   display: flex;
   flex-direction: row;
@@ -141,60 +141,6 @@ header i {
 }
 /* end header */
 
-@media (max-width: 350px) {
-  header {
-    height: 40px;
-  }
-  header i {
-    height: 38px;
-  }
-  header input {
-    width: 100px;
-  }
-}
-
-@media (max-width: 520px) {
-  header {
-    height: 50px;
-    font-size: 12px;
-  }
-  header i{
-    height: 38px;
-  }
-  header input {
-    width: 150px;
-    font-size: 12px;
-  }
-  .info div{
-    top: 15px;
-    right: 110px !important;
-  }
-  .info .me{
-    width: 45px;
-    height: 45px;
-  }
-}
-
-@media (max-width: 575px) {
-  .info div {
-    right: 125px;
-  }
-  .arr {
-    right: 0px !important;
-  }
-}
-@media (max-width: 750px) {
-  nav {
-    height: 100vh !important;
-  }
-}
-
-@media (max-width: 766px) {
-  .cars {
-    justify-content: center !important;
-  }
-}
-
 @media (max-width: 890px) {
   nav {
     overflow-y: auto;
@@ -202,7 +148,7 @@ header i {
   }
 
   header {
-    width: 90vw;
+    width: calc(103vw);
   }
   nav h2,
   li span {
@@ -220,5 +166,68 @@ header i {
     padding: 10px;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 766px) {
+  .cars {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .info div {
+    right: 125px;
+  }
+  .arr {
+    right: 0px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  header {
+    height: 50px;
+    font-size: 12px;
+  }
+  header i{
+    height: 38px;
+  }
+  header input {
+    width: 150px;
+    font-size: 12px;
+  }
+  .info div{
+    top: 15px;
+    right: 110px;
+  }
+  .info .me{
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    height: 100px !important;
+  }
+  .info{
+    margin-top: 5px;
+    justify-content: center;
+  }
+  .info div{
+    display: none;
+  }
+  .content.container{
+    padding: 5px;
+  }
+}
+
+@media (max-width:410px){
+  div.btns{
+    display: none;
+  }
+  .car{
+    min-width: 235px !important;
   }
 }

@@ -13,6 +13,7 @@
 }
 .cont select{
     width: 150px;
+    min-width: 75px;
     padding: 10px;
     border: none;
     outline: none;
@@ -66,7 +67,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /* justify-content: space-between; */
     margin-top: 50px;
     gap: 20px;
 }
@@ -76,6 +76,9 @@
     background-color: white;
     border-radius: 12px;
     padding: 10px;
+}
+.car div{
+    text-align: center;
 }
 .name{
     display: flex;
