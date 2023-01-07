@@ -1,2 +1,2 @@
 # motiv
-page(https://amrfayez247.github.io/motiv/bookinghtml)
+page(https://amrfayez247.github.io/motiv/booking.html)
