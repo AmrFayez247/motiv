@@ -16,7 +16,7 @@ a h2 {
 }
 nav {
   font-family: "DM Sans";
-  /* height: 100vh !important; */
+  height: 100vh;
   width: calc(100% - 82vw);
   display: flex;
   flex-direction: row;
@@ -26,7 +26,6 @@ nav {
   font-size: small;
   font-weight: 400;
   position: sticky;
-  height: 1024px;
   left: 0px;
   top: 0px;
   border-right: 1px solid #f8f9fa;
