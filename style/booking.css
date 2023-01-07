@@ -1,0 +1,114 @@
+.content{
+    padding: 40px;
+}
+.content h2{
+    margin-bottom: 30px;
+}
+
+/* filters */
+.cont form{
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
+}
+.cont select{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: white;
+    color: #777;
+    appearance: none;
+    position: relative;
+    margin-right: -50px;
+}
+.arr{
+    position: relative;
+    border: 8px solid transparent;
+    border-top-color: #777;
+    top: 5px;
+    right: 20px;
+}
+
+.btns{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 50px;
+}
+.btns .category{
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 6px;
+    cursor: pointer;
+}
+.category img{
+    width: 25px;
+}
+.btns i{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: #a162f7;
+    cursor: pointer;
+}
+
+/* cars */
+.cars{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+}
+.car{
+    width: calc(100%/3 - 20px);
+    min-width: 280px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+}
+.name{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.name i{
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.car img{
+    width: 80%;
+    height: 110px;
+}
+.img-cont{
+    text-align: center;
+}
+.car .foot{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.foot i{
+    color: #a162f7;
+    margin-top: 20px;
+}
+span{
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+.like{
+    color: red;
+}
