@@ -134,7 +134,7 @@ if (condition.value === "all" && type.value === "all") {
     (car) => car.new === condition.value && car.manufactorer === type.value
   );
 }
-
+let hearts = document.getElementsByClassName("fa-heart");
 let parentCars = document.getElementsByClassName("cars")[0];
 // to list cars selected
 function update() {
@@ -180,6 +180,23 @@ function update() {
     foot.appendChild(price);
     price.innerHTML = `<b>$${carsSelect[i].price}/d</b>`;
     parentCars.appendChild(carDiv);
+  }
+  
+  // to add/remove like
+  hearts = document.getElementsByClassName("fa-heart");
+  for (let i = 0; i < hearts.length; i++) {
+    hearts[i].addEventListener("click", () => {
+      let newLike = carsData.find((like) => like.id === carsSelect[i].id);
+      console.log(newLike);
+      newLike.liked = !newLike.liked;
+      if (hearts[i].classList.contains("fa-regular")) {
+        hearts[i].classList.replace("fa-regular", "fa-solid");
+        hearts[i].classList.add("like");
+      } else {
+        hearts[i].classList.replace("fa-solid", "fa-regular");
+        hearts[i].classList.remove("like");
+      }
+    });
   }
 }
 
@@ -229,20 +246,3 @@ condition.addEventListener("change", () => {
   }
   update();
 });
-
-// to add/remove like
-let hearts = document.getElementsByClassName("fa-heart");
-for (let i = 0; i < hearts.length; i++) {
-  hearts[i].addEventListener("click", () => {
-    let newLike = carsData.find((like) => like.id === carsSelect[i].id);
-    console.log(newLike);
-    newLike.liked = !newLike.liked;
-    if (hearts[i].classList.contains("fa-regular")) {
-      hearts[i].classList.replace("fa-regular", "fa-solid");
-      hearts[i].classList.add("like");
-    } else {
-      hearts[i].classList.replace("fa-solid", "fa-regular");
-      hearts[i].classList.remove("like");
-    }
-  });
-}
