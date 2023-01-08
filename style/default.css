@@ -168,11 +168,11 @@ header i {
   }
 }
 
-@media (max-width: 766px) {
+/* @media (max-width: 766px) {
   .cars {
     justify-content: center !important;
   }
-}
+} */
 
 @media (max-width: 575px) {
   .info div {
