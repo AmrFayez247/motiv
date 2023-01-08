@@ -223,9 +223,6 @@ header i {
 }
 
 @media (max-width:410px){
-  div.btns{
-    display: none;
-  }
   .car{
     min-width: 235px !important;
   }

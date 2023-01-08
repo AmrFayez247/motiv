@@ -117,3 +117,10 @@ span{
 .like{
     color: red;
 }
+
+@media screen and (max-width: 425px) {
+    div.btns {
+      display: none;
+    }
+  }
+  
