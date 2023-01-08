@@ -200,3 +200,101 @@ html{
 .last3{
     background-color: #F4E3E5;
 }
+
+@media screen and (max-width: 425px) {
+    div.btns {
+      display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        overflow-x: hidden;
+
+    
+    }
+    header .search{
+        width: 50vw;
+        height: 3vh;
+        
+    }
+    body > main > header > form > div:nth-child(1) > i{
+        height: 3vh;
+        font-size: 9px;
+    }
+    body > main > header > form > div:nth-child(1) > i::before{
+        font-size: 2vh;
+     
+    }
+    header .info{
+        display: flex;
+        flex-direction: row;
+        width:30%;
+        height: 100%;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    header .info .bell{
+        width: 20px;
+        height: auto;
+        object-fit: cover;
+    }
+    header .info .me{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right:100px
+    }
+  
+    nav{
+
+        min-height: 120vh !important;
+    }
+    .pies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .pies .pie{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .data .bars{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .linesSection{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .last-cars{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .last-cars .last{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+  }
