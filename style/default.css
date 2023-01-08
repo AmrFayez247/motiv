@@ -2,7 +2,9 @@
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
-
+html {
+  overflow-x: clip;
+}
 body {
   display: flex;
   background-color: #f8f9fa;
