@@ -1,5 +1,5 @@
 * {
-  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
@@ -188,18 +188,18 @@ header i {
     height: 50px;
     font-size: 12px;
   }
-  header i{
+  header i {
     height: 38px;
   }
   header input {
     width: 150px;
     font-size: 12px;
   }
-  .info div{
+  .info div {
     top: 15px;
     right: 110px;
   }
-  .info .me{
+  .info .me {
     width: 45px;
     height: 45px;
   }
@@ -210,20 +210,20 @@ header i {
     flex-direction: column;
     height: 100px !important;
   }
-  .info{
+  .info {
     margin-top: 5px;
     justify-content: center;
   }
-  .info div{
+  .info div {
     display: none;
   }
-  .content.container{
+  .content.container {
     padding: 5px;
   }
 }
 
-@media (max-width:410px){
-  .car{
+@media (max-width: 410px) {
+  .car {
     min-width: 235px !important;
   }
 }

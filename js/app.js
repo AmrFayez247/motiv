@@ -19,7 +19,7 @@ let carsData = [
     mode: "Automatic",
     price: 400,
     new: "New",
-    id: 0
+    id: 0,
   },
   {
     name: "Mercedes 718 Cayman S",
@@ -31,7 +31,7 @@ let carsData = [
     mode: "Manual",
     price: 400,
     new: "Used",
-    id: 1
+    id: 1,
   },
   {
     name: "Suzuki 718 Cayman S",
@@ -43,7 +43,7 @@ let carsData = [
     mode: "Manual",
     price: 400,
     new: "Old",
-    id: 2
+    id: 2,
   },
   {
     name: "Audi 718 Cayman S",
@@ -55,7 +55,7 @@ let carsData = [
     mode: "Automatic",
     price: 1000,
     new: "New",
-    id: 3
+    id: 3,
   },
   {
     name: "Mercedes 718 Cayman S",
@@ -67,7 +67,7 @@ let carsData = [
     mode: "Manual",
     price: 700,
     new: "New",
-    id: 4
+    id: 4,
   },
   {
     name: "Suzuki 718 Cayman S",
@@ -79,7 +79,7 @@ let carsData = [
     mode: "Manual",
     price: 400,
     new: "Old",
-    id: 5
+    id: 5,
   },
   {
     name: "Mercedes 718 Cayman S",
@@ -91,7 +91,7 @@ let carsData = [
     mode: "Manual",
     price: 200,
     new: "New",
-    id: 6
+    id: 6,
   },
   {
     name: "Audi 718 Cayman S",
@@ -103,7 +103,7 @@ let carsData = [
     mode: "Manual",
     price: 450,
     new: "Used",
-    id: 7
+    id: 7,
   },
   {
     name: "Suzuki 718 Cayman S",
@@ -115,7 +115,7 @@ let carsData = [
     mode: "Manual",
     price: 200,
     new: "Old",
-    id: 8
+    id: 8,
   },
 ];
 
