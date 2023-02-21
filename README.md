@@ -1,7 +1,7 @@
 # Motiv
 
-- dashboard page (https://amrfayez247.github.io/motiv/dashboard.html)
-- booking page (https://amrfayez247.github.io/motiv/booking.html)
+- dashboard page (https://amrfayezz1.github.io/motiv/dashboard.html)
+- booking page (https://amrfayezz1.github.io/motiv/booking.html)
 
 ## This Project is a landing page for a car services store.
 - Contains a Dashboard page that has statistics to demonstrate using pie chart, bar chart, and line charts that has the data over the day, week, or month. The user has the ability to choose what period to be shown dynamically.
